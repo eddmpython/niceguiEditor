@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "niceguiEditor"
+version = "0.1.0"
+description = "NiceGUI 기반 에디터 라이브러리"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "nicegui>=1.3.5",
+    "plotly>=5.14.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/username/niceguiEditor"
+"Bug Tracker" = "https://github.com/username/niceguiEditor/issues"
+
+[tool.setuptools]
+packages = ["niceguiEditor"] 

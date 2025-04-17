@@ -46,3 +46,6 @@ yarn.lock
 .env
 storage.json
 .nicegui/
+
+# 백업 파일
+*.bak
